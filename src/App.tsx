@@ -1,3 +1,4 @@
+import { Button } from "./components/ui/button"
 
 
 function App() {
@@ -8,6 +9,8 @@ function App() {
      <h1>welcome to elib dashbord
 
      </h1>
+
+      <Button variant={"ghost"}>Click me</Button>
     </>
   )
 }
